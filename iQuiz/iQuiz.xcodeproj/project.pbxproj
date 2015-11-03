@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C86D62A1BE9534F0035FF59 /* SubjectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C86D6291BE9534F0035FF59 /* SubjectController.swift */; };
 		2CAA53DF1BE323D500E4571A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAA53DE1BE323D500E4571A /* AppDelegate.swift */; };
 		2CAA53E11BE323D500E4571A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAA53E01BE323D500E4571A /* ViewController.swift */; };
 		2CAA53E41BE323D500E4571A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAA53E21BE323D500E4571A /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C86D6291BE9534F0035FF59 /* SubjectController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectController.swift; sourceTree = "<group>"; };
 		2CAA53DB1BE323D300E4571A /* iQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CAA53DE1BE323D500E4571A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CAA53E01BE323D500E4571A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				2CAA53E51BE323D500E4571A /* Assets.xcassets */,
 				2CAA53E71BE323D500E4571A /* LaunchScreen.storyboard */,
 				2CAA53EA1BE323D500E4571A /* Info.plist */,
+				2C86D6291BE9534F0035FF59 /* SubjectController.swift */,
 			);
 			path = iQuiz;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C86D62A1BE9534F0035FF59 /* SubjectController.swift in Sources */,
 				2CAA53E11BE323D500E4571A /* ViewController.swift in Sources */,
 				2CAA53DF1BE323D500E4571A /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +488,7 @@
 				2CAA54051BE323D600E4571A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CAA54061BE323D600E4571A /* Build configuration list for PBXNativeTarget "iQuizTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				2CAA54081BE323D600E4571A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CAA54091BE323D600E4571A /* Build configuration list for PBXNativeTarget "iQuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				2CAA540B1BE323D600E4571A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
